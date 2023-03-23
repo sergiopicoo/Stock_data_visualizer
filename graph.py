@@ -59,7 +59,7 @@ data = json.loads(response.text)
 
 # Get the time series data from the dictionary
 if time_series == "TIME_SERIES_DAILY_ADJUSTED":
-    time_series_key = "Daily Adjusted Time Series"
+    time_series_key = "Time Series (Daily)"
 elif time_series == "TIME_SERIES_WEEKLY_ADJUSTED":
     time_series_key = "Weekly Adjusted Time Series"
 elif time_series == "TIME_SERIES_MONTHLY_ADJUSTED":
